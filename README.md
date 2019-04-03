@@ -1,5 +1,6 @@
 # check_cisco_umbrella
-Plugin for fetching blocked threats from Cisco Umbrella API (Reporting API - Security Activity Report)
+Nagios/Naemon/OP5 Plugin for fetching blocked threats from Cisco Umbrella API (Reporting API - Security Activity Report)
+API doc: https://docs.umbrella.com/umbrella-api/docs/security-activity-report
 
 ## Installation
 pip install -r requirements.txt
@@ -25,5 +26,4 @@ Options:
   -t TIMEOUT, --timeout TIMEOUT
                         timeout
 
-API doc: https://docs.umbrella.com/umbrella-api/docs/security-activity-report
 ```
