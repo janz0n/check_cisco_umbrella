@@ -7,8 +7,8 @@ pip install -r requirements.txt
 
 ## Usage
 ```
-usage: check_cisco_umbrella.py [-h] -o ORG -k KEY -s SEC [-T TIME] [-w RANGE]
-                               [-c RANGE] [-v] [-V] [-t TIMEOUT]
+usage: check_cisco_umbrella [-h] -o ORG -k KEY -s SEC [-T TIME] [-w RANGE]
+                            [-c RANGE] [-v] [-V] [-t TIMEOUT]
 
 check_cisco_umbrella
 
@@ -21,9 +21,10 @@ Options:
                         default 300s
   -w RANGE, --warning RANGE
   -c RANGE, --critical RANGE
-  -v, --verbose         verbose
+  -v, --verbose         increase output verbosity (use up to 3 times)
   -V, --version         show program's version number and exit
   -t TIMEOUT, --timeout TIMEOUT
                         timeout
 
+API doc: https://docs.umbrella.com/umbrella-api/docs/security-activity-report
 ```
