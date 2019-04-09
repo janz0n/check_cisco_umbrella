@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-#check_cisco_umbrella - Nagios/Icinga/OP5 plugin for fetching blocked threats from the Cisco Umbrella API (Reporting API - Security Activity Report)
+# -*- coding: utf-8 -*-
+# check_cisco_umbrella - Nagios/Icinga/OP5 plugin for fetching blocked threats from the Cisco Umbrella API (Reporting API - Security Activity Report)
 
 __author__ = "Henrik Janzon"
 __credits__ = [""]
